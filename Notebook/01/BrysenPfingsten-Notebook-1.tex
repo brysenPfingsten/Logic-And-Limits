@@ -1,0 +1,123 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{setspace}
+\setstretch{1.08}
+
+\usepackage{enumitem}
+\setlist[itemize]{leftmargin=*, itemsep=0.35em, topsep=0.25em}
+\setlist[enumerate]{leftmargin=*, itemsep=0.35em, topsep=0.25em}
+\usepackage[hidelinks]{hyperref}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{mathtools}
+
+\usepackage{titlesec}
+\titleformat{\section}{\large\bfseries}{\thesection)}{0.5em}{}
+\titlespacing*{\section}{0pt}{1.0em}{0.5em}
+
+\newcommand{\blankline}{\vspace{0.9\baselineskip}}
+
+\begin{document}
+
+\begin{center}
+    {\huge \textbf{Notebook 1}}\\[0.25em]
+    {\large Introduction: A Musico-Logical Offering :: Chapter 1: The MU-puzzle}\\[0.25em]
+    14 January 2026
+\end{center}
+
+\blankline
+
+%===============================================
+\section{Summary}
+\begin{itemize}
+    \item Introduces the 3 main characters (Godel Escher Bach) and their work.
+    \item Introduces key terms such as strange loops and isomorphisms.
+    \item Explains mathematical problems within the Principia Mathematica system.
+    \item Discusses early efforts to make all of mathematics computable.
+    \item Introduces the MU-system, MU-puzzle, and formal systems gerally.
+\end{itemize}
+%===============================================
+
+%===============================================
+\section{Dialogue $\leftrightarrow$ Chapter Link}
+\noindent
+No dialog :(
+%===============================================
+
+%===============================================
+\section{Questions}
+\noindent
+\textbf{Q1:} In what sense is a cannon like an isomorphism? (p.8) \\
+\textbf{Q2:} What are the implications of Godel's Theorem and why was it surprising when it was published? (p.17-19) \\
+\textbf{Q3:} What were the paradoxes that showed issues with Principia Mathematica? (p.20-21) \\
+%===============================================
+
+%===============================================
+\section{Worked Examples and Exercises}
+\textbf{MU-puzzle} \\
+\begin{align*}
+  \text{xI} &\rightarrow \text{xIU} \\
+  \text{Mx} &\rightarrow \text{Mxx} \\
+  \text{III} &\rightarrow \text{U} \\
+  \text{UU} &\rightarrow \\
+\end{align*}
+You cannot go from MI to MU because you would need a number of I's congruent to 0 modulo 3.
+This is not possible because the only rule that add I's is Mx to Mxx which only greats powers of two.
+%===============================================
+
+%===============================================
+\section{Quotes}
+\subsubsection*{Passage 1 (p.24 l.20-29)}
+\begin{quote}
+\noindent
+[Godel's] paper revealed not only that there were irreparable ``holes'' in the axiomatic syste proposed by Russell and Whitehead, but more generally, that no axiomatic system whatsoever could produce all number-theoretical truths, unless it were an inconsistent system! And finally, the hope of proving the consistency of a system such as that presented in P.M. was shown to be in vain: if such a proof could be found using only methods inside P.M., then---and this is one of the most mystifying consequences of Godel's work---P.M. itself would be inconsistent!
+\end{quote}
+This quote shows the devastating consequences of Godel's theorem.
+Not only did it shutdown the grand ideas but forth in P.M., but it shutdown any future work attempting something similar.
+
+\subsubsection*{Passage 2 (p.50 l.3-6)}
+\begin{quote}
+\noindent
+The difference, then, is that it is \textit{possible} for a machine to act unobservant; it is impossible for a human to act unobservant.
+\end{quote}
+This quote shows the difference between computers and humans especially when working with formal systems.
+For humans, we are constantly tempted to go outside the system and reason there.
+However, we need to learn from computers how to be more mechanical so we don't violate rules when working with formal systems.
+%===============================================
+
+%===============================================
+\section{Key Terms / Mappings}
+\begin{itemize}
+    \item \textbf{Canon:} A contrapuntal (counterpoint-based) compositional technique that employs a melody with one or more imitations of the melody played after a given duration.
+    \item \textbf{Isomorphism:} An information preserving transformation.
+    \item \textbf{Strange Loop:} Moving upwards or downwards through a hierarchy ends at the same spot.
+    \item \textbf{Russell's Paradox} Paradox involving sets showing a fundamental contradiction in Principia Mathematica.
+    \item \textbf{Decision Procedure:} A test over the validity of a theorem that terminates in finite time.
+\end{itemize}
+%===============================================
+
+%===============================================
+\section{Counter Case or Limitation}
+\noindent
+Although the author knew nothing about them, I think LLMs look like they fit here but don't.
+People are trying to use these are the new "AI" and towards reasoning about things.
+I think they still don't apply because they're just formal systems on steroids.
+They don't solve the problem of axiomatic systems and strict formal systems mentioned in the chapters.
+%===============================================
+
+%===============================================
+\section{Study Card Sentence}
+\noindent
+Any consistent formal system is incomplete: some truths can’t be proven.
+%===============================================
+
+%===============================================
+\section{Muddiest Point}
+\noindent
+Why can we not go outside the system and use our human reasoning to reason at a meta level?
+%===============================================
+
+\end{document}
