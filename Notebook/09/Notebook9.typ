@@ -25,6 +25,10 @@ Achilles describes a method of determining the validity of a kōan which involve
 You can then look at the string and determine if it has a "Buddha nature".
 This is analogous to how Gödel isomorphically transformed statements about number theory into number theory itself.
 
+The Tortoise's string which itself described how to make a string is similar to the G statement.
+If the string does not have Buddha nature, then the procedure it describes to make a Buddha string is true in which case the string must have Buddha nature.
+If the string does have Buddha nature, then the procedure it describes to make a non-Buddha string is true in which case is must not have Buddha nature.
+
 = Questions
 *Q1:* Why are kōans often nonsensical? What are they trying to do to their reader? (pg. 249) \
 *Q2:* Describe the procedure whereby you can take a typographical formal system and translate it into an arithmetical one. (pg. 261-8) \
