@@ -4,6 +4,7 @@
 #show heading: set block(below: 1em)
 #set list(spacing: 1em)
 #set quote(block: true)
+#set par(justify: true)
 
 #align(center)[
   #text(size: 20pt, weight: "bold")[Notebook X] \
