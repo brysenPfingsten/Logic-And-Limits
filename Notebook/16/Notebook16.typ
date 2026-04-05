@@ -55,6 +55,26 @@ The chapter extends this to biology: DNA acts as both program and data, just lik
   [$arrow.r$], [$arrow.l$], [T],
 )
 
+= Quotes
+*Passage 1 (pg. 531)*
+#v(-1em)
+#quote()[
+  There is a biochemical analogue to the use-mention dichotomy: when DNA is treated as a mere sequence of chemicals to be copied, it is like _mention_ of typographical symbols; when DNA is dictating what operations shall be carried out, it is like _use_ of typographical symbols.
+]
+#v(-0.8em)
+The long drawn out analogy of TNT and molecular biology gives some insight into how self-reference is achieved.
+You need something to function as both template (passive) and program (active).
+
+*Passage 2 (pg. 541)*
+#v(-1em)
+#quote()[
+  ... the phage asserts its own producibility in a specific cell, and the sentence asserts its own producibility in a specific formal system.
+  Sentences of this type are called _Henkin sentences_...
+]
+#v(-0.8em)
+These new types of sentences are derived similar to Gödel's sentences but without a negation out front.
+This is the method by which Tortoise is able to play his record on the Crab's record player.
+
 = Key Terms / Mappings
 - *Self-rep:* Self-reproducing object or entity (e.g., DNA, quine programs)
 - *Self-ref:* Self-referring object or entity (e.g., "This sentence is false")
