@@ -35,14 +35,14 @@
 
 = Quotes
 *Passage 1 (pg. )*
-#v(-1em)
+#v(-1.5em)
 #quote()[
 
 ]
 #v(-0.8em)
 
 *Passage 2 (pg. )*
-#v(-1em)
+#v(-1.5em)
 #quote()[
 
 ]
