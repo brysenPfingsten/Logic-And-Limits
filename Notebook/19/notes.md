@@ -81,8 +81,8 @@
 - Malaphor = Malapropism + Metaphor
 
 ### Focusing and Filtering
--  **Focusing:** Description of some part ignoring everything else (nouns)
-- **Filtering:** Description of viewing the contents
+- **Focusing:** Description of some part ignoring everything else (nouns)
+- **Filtering:** Description of viewing the contents (adjectives)
 - Look at box with the least/most amount of pre-processor info
 
 ### Science and the World of Bongard Problems
