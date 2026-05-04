@@ -1,9 +1,10 @@
 #set page(paper: "us-letter")
-#set text(size: 11pt, font: "New Computer Modern")
-#set heading(level: 1, numbering: "1.a)",)
+#set text(size: 10pt, font: "New Computer Modern")
+#set heading(level: 1, numbering: "1.a)")
 #show heading: set block(below: 1em)
 #set list(spacing: 1em)
 #set quote(block: true)
+#set par(justify: true)
 
 #align(center)[
   #text(size: 20pt, weight: "bold")[Notebook 6] \

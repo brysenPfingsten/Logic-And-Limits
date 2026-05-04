@@ -1,0 +1,88 @@
+#set page(paper: "us-letter")
+#set text(size: 10pt, font: "New Computer Modern")
+#set heading(level: 1, numbering: "1.a)")
+#show heading: set block(below: 1em)
+#set list(spacing: 1em)
+#set quote(block: true)
+#set par(justify: true)
+
+#align(center)[
+  #text(size: 20pt, weight: "bold")[Notebook 2] \
+  #text(size: 14pt)[Two-Part Invention :: Chapter 2 Meaning and Form] \
+  Brysen Pfingsten $quad$ 21 January 2026
+]
+
+#v(1em)
+
+= Summary
+- Demonstrates how paradoxes resolve through process (motion, proof, understanding).
+- Builds meaning by constructing formal systems, defining symbols, axioms, and rules then generating theorems and discovering decision procedures.
+- Builds meaning by creating isomorphisms mapping formal systems to parts of reality.
+- Contrasts passive rule following (formal systems) with more active interpretations (language).
+- Explores how math manages infinities and abstractions by using finite symbols to reason about infinite collections.
+
+= Dialogue $arrow.l.r.long$ Chapter Link
+The Two-Part Invention dialog shows that problems get resolved by carrying out a process, not by settling everything with abstract explanations.
+Achilles catching the tortoise by walking mirrors how mathematical truth comes from applying rules step by step in a formal system.
+The endless addition of propositions (C, D, E, and so on) acts out how proofs rely on rule-following rather than on a final, unquestionable foundation.
+At the same time, the dialog highlights the tension between meaning (what Achilles wants) and form (what the Tortoise) demands.
+Its ever-rising structure parallels formal systems that can keep generating valid steps without a natural stopping point.
+Overall, the dialog makes you experience firsthand why formal systems are passive, while understanding and meaning must be supplied by the human reader.
+
+= Questions
+*Q1:* How does the way we abstract over numbers mislead us sometimes in real life situations? (p. 56 l. 15) \
+*Q2:* How do the rules of formal systems compare and contrast with the meaning of language? (p. 60 l. 10; p. 52 l. 1) \
+*Q3:* In what sense do isomorphisms create meaning for people? (p. 50 l. 1)
+
+= Worked Examples and Exercises
+*Decision Procedure for the pq-system* \
+The pq-system consists of the symbols `q`, `p`, and `-`.
+`xp-qx-` is an axiom.
+There is one rule:
+Let `x`, `y`, `z = -*` and `xpyqz` be a known theorem, then `xpy-qz-` is a theorem.
+To find a decision procedure, you must observe that the number of hyphens in the first and second hyphen groups in the axiom adds up to the number of hyphens in the third group.
+Secondly, you must observe that the rule maintains this invariant because the second and third each get a new hyphen.
+Thirdly, it is impossible to go from a non-theorem to a theorem because the balance cannot be restored.
+
+= Quotes
+*Passage 1 (p. 52 l. 1–10)*
+#v(-1em)
+#quote()[
+  ... in a language, when we have learned a meaning for a word, we then make new statements based on the meaning of the word.
+  In a sense, the meaning becomes _active_, since it brings into being a new rule for creating sentences...
+  We can choose "meanings" based on an isomorphism (if we can find one) between theorems and true statements.
+  But this does not give us the license to go out and add new theorems to the established theorems.
+]
+#v(-0.8em)
+This quote shows how natural language is much looser when it comes to interpretations and meaning.
+Formal systems require us to precisely specify the axioms and rules such that there is no ambiguity and no room for expansion.
+This is thematic of the chapter as it explores the nature of formal systems and how they relate to meaning.
+
+*Passage 2 (p. 50 l. 3–6)*
+#v(-1em)
+#quote()[
+  The perception of an isomorphism between two known structures is a significant advance in knowledge—and I claim that it is such perceptions of isomorphism which create _meaning_ in the minds of people.
+]
+#v(-0.8em)
+This is one of the core ideas of the chapter: observing an isomorphism between two things helps us understand them better.
+Observing an isomorphism allows one to transfer knowledge between the two (or more) domains, lets the learner focus on the structure rather than the representation, and can simplify structures by mapping them to multiple smaller, more easily understood structures.
+
+= Key Terms / Mappings
+- *Solvitur Ambulando:* Latin for "it is solved by walking." Abstract problems and situations can be resolved by doing them.
+- *Axiom Schema:* A template for building an axiom in a formal system such as `xp-qx` where `x` consists of just hyphens.
+- *Hereditary Property of Theorems:* When a theorem contains a rule that maintains some invariant between the original theorem and the resulting theorem.
+- *Tree Search and Decision Procedures:* Top-down decision procedure is like structural recursion whereas the bottom-up decision procedure is like a BFS.
+- *Isomorphism:* Two complex structures mapped onto each other such that there are corresponding (similar roles) parts.
+
+= Counter Case or Limitation
+Plato’s Theory of Forms looks like it fits because it treats mathematics as ideal, abstract, and foundational to reality.
+But it actually doesn’t fit because the text assumes that meaning is created by recognizing isomorphisms between formal systems and the world, not discovered in a pre-existing realm of truths.
+In the pq-system, symbols are meaningless until an interpretation is imposed; for Plato, mathematical truths are already real and true regardless of symbols or minds.
+The framework is anti-Platonist: structure does not guarantee meaning but rather interpretation does.
+
+= Study Card Sentence
+Meaning arises from recognizing isomorphisms, not symbols or proofs alone.
+
+= Muddiest Point
+What does it mean for an abstraction of a number to not behave like reality? Are these not all just misapplications?
+
